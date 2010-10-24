@@ -1,7 +1,6 @@
-== Simple Wordpress Interchange Format parser
+== WXR / WordPress eXtended RSSfile import
 
-Simple Wordpress blog interchange xml file parser in Ruby with Nokogiri parser.
-
+A parser for Wordpress export files for Ruby. Uses Nokogiri to parse XML. Removes junk caused by users pasting content from MS Word.
 Usage:
 
    require 'wordpress_import'
@@ -25,5 +24,6 @@ Usage:
    end
 
 Written by Thomas Flemming
+
 
 
